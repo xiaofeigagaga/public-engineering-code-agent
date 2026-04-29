@@ -1,0 +1,4 @@
+/home/user/demo/src/main.cpp:2:10: fatal error: opencv2/opencv.hpp: No such file or directory
+    2 | #include <opencv2/opencv.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.

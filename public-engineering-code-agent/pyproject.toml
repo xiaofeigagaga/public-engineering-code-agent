@@ -1,0 +1,27 @@
+[project]
+name = "public-engineering-code-agent"
+version = "0.1.0"
+description = "A privacy-safe engineering codebase debugging and documentation agent."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Your Name" }]
+keywords = ["agent", "code-analysis", "debugging", "documentation", "cmake", "ros2"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+code-agent = "code_agent.agent:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

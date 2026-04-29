@@ -1,0 +1,2 @@
+# No external runtime dependencies are required.
+# Python >= 3.9 is recommended.
